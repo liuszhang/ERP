@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "SampleERPInstall", "SampleERPInstall\SampleERPInstall.isproj", "{4F360766-2151-4FB1-A377-A5F3C0D97B21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Default = CD_ROM|Default
+		DVD-5|Default = DVD-5|Default
+		SingleImage|Default = SingleImage|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F360766-2151-4FB1-A377-A5F3C0D97B21}.CD_ROM|Default.ActiveCfg = CD_ROM
+		{4F360766-2151-4FB1-A377-A5F3C0D97B21}.CD_ROM|Default.Build.0 = CD_ROM
+		{4F360766-2151-4FB1-A377-A5F3C0D97B21}.DVD-5|Default.ActiveCfg = DVD-5
+		{4F360766-2151-4FB1-A377-A5F3C0D97B21}.DVD-5|Default.Build.0 = DVD-5
+		{4F360766-2151-4FB1-A377-A5F3C0D97B21}.SingleImage|Default.ActiveCfg = SingleImage
+		{4F360766-2151-4FB1-A377-A5F3C0D97B21}.SingleImage|Default.Build.0 = SingleImage
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://oa:8081/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SampleERPInstall\\SampleERPInstall.isproj
+		SccProjectName1 = SampleERPInstall
+		SccLocalPath1 = SampleERPInstall
+	EndGlobalSection
+EndGlobal
