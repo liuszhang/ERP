@@ -20,14 +20,20 @@ namespace SampleERP.DataClass
         /// </summary>
         public DataBase()
         {
-            string strServer = OperatorFile.GetIniFileString("DataBase", "Server", "",
-                                                             Application.StartupPath + "\\SMALLERP.ini");
+            //string strServer = OperatorFile.GetIniFileString("DataBase", "Server", "",Application.StartupPath + "\\SMALLERP.ini");
+            string strServer = "localhost";
+
+
             //获取登录用户
-            string strUserID = OperatorFile.GetIniFileString("DataBase", "User", "",
-                                                             Application.StartupPath + "\\SMALLERP.ini");
+            //string strUserID = OperatorFile.GetIniFileString("DataBase", "User", "",Application.StartupPath + "\\SMALLERP.ini");
+            string strUserID = "sa";
+
+
             //获取登录密码
-            string strPwd = OperatorFile.GetIniFileString("DataBase", "Password", "",
-                                                          Application.StartupPath + "\\SMALLERP.ini");
+            //string strPwd = OperatorFile.GetIniFileString("DataBase", "Password", "",Application.StartupPath + "\\SMALLERP.ini");
+            string strPwd = "sa";
+
+
             //数据库连接字符串
             string strConn = "Server = " + strServer + ";Database=SMALLERP;User id=" + strUserID + ";PWD=" + strPwd;
 

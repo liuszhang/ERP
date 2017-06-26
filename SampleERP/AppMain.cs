@@ -397,5 +397,10 @@ namespace SampleERP
             formSelProfitCollectReport.StartPosition = FormStartPosition.CenterScreen;
             formSelProfitCollectReport.Show();
         }
+
+        private void barStaticItem2_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+
+        }
     }
 }
